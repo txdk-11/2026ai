@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 수정: 브라우저 탭에 보이는 사이트 제목을 바꿔 보세요. -->
+    <title>AI창의융합코딩연구반 포트폴리오</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23f6c453'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-size='26' font-family='Arial' font-weight='700' fill='%231d2433'%3EAI%3C/text%3E%3C/svg%3E"
+    />
+    <!-- CodePen: style.css 내용은 CSS 패널에 붙여 넣고, GitHub Pages에서는 아래 줄을 그대로 둡니다. -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="처음으로 이동">
+        <!-- 수정: 자신의 이름 이니셜로 바꿔 보세요. 예) MJ, YS, AI -->
+        <span class="logo-mark">AI</span>
+        <span>Portfolio</span>
+      </a>
+
+      <nav class="nav-links" aria-label="주요 메뉴">
+        <a href="#about">소개</a>
+        <a href="#activities">활동</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#notes">기록</a>
+        <a href="#contact">연락</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <!-- 수정: 자신의 이름과 포트폴리오 제목으로 바꿔 보세요. -->
+          <p class="eyebrow">AI창의융합코딩연구반 개인 포트폴리오</p>
+          <h1 id="hero-title">AI와 코딩으로 생각을 실체화합니다. <h1>
+          <!-- 수정: 자신을 소개하는 한 문장으로 바꿔 보세요. -->
+          <p class="hero-text">
+            안녕하세요. 저는 아이디어를 코드로 구현하는 과정을
+            좋아하고 개발자를 희망하는 학생입니다. 이 포트폴리오에는 동아리 활동과 실습 프로젝트를
+            정리했습니다.
+          </p>
+          <div class="hero-actions" aria-label="바로가기">
+            <a class="button primary" href="#projects">프로젝트 보기</a>
+            <a class="button secondary" href="#notes">기록 남기기</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="프로필 요약">
+          <div class="avatar" aria-hidden="true">
+            <!-- 수정: 자신의 이니셜 또는 별명을 넣어 보세요. -->
+            <span>AI</span>
+          </div>
+          <div>
+            <!-- 수정: 자신의 이름, 학년, 관심 키워드로 바꿔 보세요. -->
+            <h2>박수아</h2>
+            <p>영신여고 2학년 · AI와 로봇에 관심 있는 학생</p>
+          </div>
+          <dl class="profile-facts">
+            <div>
+              <dt>관심 분야</dt>
+              <dd>AI, 웹, 로봇</dd>
+            </div>
+            <div>
+              <dt>사용 도구</dt>
+              <dd>HTML, CSS, JavaScript, Python</dd>
+            </div>
+            <div>
+              <dt>목표</dt>
+              <dd>비디오 게임 프로젝트 완성</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="club-logo-section section" aria-labelledby="club-logo-title">
+        <div class="club-logo-copy">
+          <p class="eyebrow">Club Identity</p>
+          <h2 id="club-logo-title">동아리 로고</h2>
+          <p>
+            <!-- 수정: 로고 아래에 넣고 싶은 동아리 설명을 바꿔 보세요. -->
+            실습 결과물과 포트폴리오에 함께 사용할 수 있는 AI창의융합코딩연구반 대표 이미지입니다.
+          </p>
+        </div>
+        <figure class="club-logo-frame">
+          <!-- 수정: GitHub Pages에서는 로고 파일을 이 HTML과 같은 폴더에 club-logo.png 이름으로 올리세요. -->
+          <!-- CodePen: 이미지를 업로드하거나 이미지 주소를 복사한 뒤 아래 src 값을 바꿔 넣으면 됩니다. -->
+          <img
+            class="club-logo-image"
+            src="club-logo.png"
+            alt="2026 AI창의융합 코딩연구반 로고"
+            onerror="this.closest('.club-logo-frame').classList.add('is-missing'); this.remove();"
+          />
+          <div class="club-logo-fallback" aria-hidden="true">
+            <span>2026</span>
+            <strong>AI창의융합 코딩연구반</strong>
+          </div>
+          <figcaption>2026 AI창의융합코딩연구반</figcaption>
+        </figure>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2 id="about-title">자기소개</h2>
+        </div>
+        <div class="about-layout">
+          <p>
+            <!-- 수정: 나의 성격, 강점, 코딩을 배우는 이유를 적어 보세요. -->
+            저는 새로운 기술을 직접 만져 보며 배우는 것을 좋아합니다. AI 도구를 활용해
+            아이디어를 빠르게 실험하고, HTML과 JavaScript로 결과물을 화면에 표현하는
+            과정에 흥미를 느낍니다.
+          </p>
+          <ul class="interest-list" aria-label="관심 키워드">
+            <!-- 수정: 관심 키워드를 자유롭게 바꿔 보세요. -->
+            <li>웹 페이지 만들기</li>
+            <li>AI 프롬프트 실험</li>
+            <li>데이터 시각화</li>
+            <li>문제 해결 기록</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section tinted" id="activities" aria-labelledby="activities-title">
+        <div class="section-heading">
+          <p class="eyebrow">Club Activities</p>
+          <h2 id="activities-title">동아리 활동</h2>
+        </div>
+        <div class="activity-timeline" id="activityTimeline" aria-live="polite">
+          <!-- JavaScript가 script.js의 activityData 배열을 읽어 활동 목록을 만듭니다. -->
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Practice Projects</p>
+            <h2 id="projects-title">실습 프로젝트</h2>
+          </div>
+          <div class="filter-buttons" aria-label="프로젝트 필터">
+            <button class="filter-button active" type="button" data-filter="all">전체</button>
+            <button class="filter-button" type="button" data-filter="web">웹</button>
+            <button class="filter-button" type="button" data-filter="ai">AI</button>
+            <button class="filter-button" type="button" data-filter="data">데이터</button>
+          </div>
+        </div>
+        <div class="project-grid" id="projectGrid" aria-live="polite">
+          <!-- JavaScript가 script.js의 projectData 배열을 읽어 프로젝트 카드를 만듭니다. -->
+        </div>
+      </section>
+
+      <section class="section notes-section" id="notes" aria-labelledby="notes-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Portfolio Log</p>
+            <h2 id="notes-title">포트폴리오 기록</h2>
+          </div>
+          <p class="section-note">
+            <!-- 수정: 기록 섹션 안내 문구를 바꿔 보세요. -->
+            내가 수행한 활동을 짧게 메모하면 아래 목록에 바로 표시됩니다.
+          </p>
+        </div>
+
+        <div class="notes-layout">
+          <form class="note-form" id="noteForm">
+            <label for="noteTitle">
+              기록 제목
+              <input
+                id="noteTitle"
+                name="title"
+                type="text"
+                maxlength="40"
+                placeholder="예: 웹 페이지 첫 화면 완성"
+                required
+              />
+            </label>
+
+            <label for="noteCategory">
+              활동 종류
+              <select id="noteCategory" name="category">
+                <option value="실습">실습</option>
+                <option value="프로젝트">프로젝트</option>
+                <option value="AI 활용">AI 활용</option>
+                <option value="오류 해결">오류 해결</option>
+                <option value="느낀 점">느낀 점</option>
+              </select>
+            </label>
+
+            <label for="noteContent">
+              기록 내용
+              <textarea
+                id="noteContent"
+                name="content"
+                rows="5"
+                maxlength="240"
+                placeholder="오늘 무엇을 만들었고, 어떤 점을 배웠는지 적어 보세요."
+                required
+              ></textarea>
+            </label>
+
+            <button class="button primary" type="submit">기록 추가</button>
+            <p class="note-help">
+              이 기록은 복잡한 데이터베이스 없이 현재 브라우저에만 저장됩니다.
+            </p>
+          </form>
+
+          <div class="note-board" aria-live="polite">
+            <div class="note-board-header">
+              <h3>나의 활동 메모</h3>
+              <span id="noteCount">0개</span>
+            </div>
+            <div class="note-list" id="noteList">
+              <!-- JavaScript가 작성한 메모를 이곳에 바로 보여 줍니다. -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section learnings" aria-labelledby="learnings-title">
+        <div class="section-heading">
+          <p class="eyebrow">Reflection</p>
+          <h2 id="learnings-title">배운 점</h2>
+        </div>
+        <div class="learning-grid">
+          <article>
+            <span class="number">01</span>
+            <!-- 수정: 활동을 통해 배운 점을 자신의 말로 바꿔 보세요. -->
+            <h3>작게 시작하기</h3>
+            <p>처음부터 완벽한 결과를 만들기보다 작은 기능을 하나씩 완성하는 습관을 배웠습니다.</p>
+          </article>
+          <article>
+            <span class="number">02</span>
+            <h3>질문 잘하기</h3>
+            <p>AI에게 질문할 때 목표, 조건, 예시를 분명히 적으면 더 좋은 도움을 받을 수 있었습니다.</p>
+          </article>
+          <article>
+            <span class="number">03</span>
+            <h3>기록 남기기</h3>
+            <p>프로젝트 과정과 오류 해결 방법을 기록하면 다음 실습에서 더 빠르게 성장할 수 있었습니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">연락처와 링크</h2>
+        </div>
+        <div class="contact-box">
+          <p>
+            <!-- 수정: 이메일, GitHub 주소, 블로그 주소 등을 자신의 정보로 바꿔 보세요. -->
+            더 많은 기록은 GitHub Pages와 개인 학습 노트에 정리할 예정입니다.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:student@example.com">student@example.com</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="#top">맨 위로</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <!-- 수정: 이름과 연도를 바꿔 보세요. -->
+      <p>2026 AI창의융합코딩연구반 · 나의 첫 개인 포트폴리오</p>
+    </footer>
+
+    <!-- CodePen: script.js 내용은 JS 패널에 붙여 넣고, GitHub Pages에서는 아래 줄을 그대로 둡니다. -->
+    <script src="script.js"></script>
+  </body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
